@@ -1,0 +1,46 @@
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Build / distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Testing ----
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+
+# ---- Local exports / data (optional) ----
+*.csv
+*.xlsx
+
+# ---- Matplotlib ----
+.matplotlib/
